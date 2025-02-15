@@ -1,2 +1,37 @@
 # Dictionary-
 Pydriod 3 Programing: 30 words Dictionary that allows user to look up certain definitions of selected words
+DATA = {
+                 "ABATE": "TO REDUCE IN INTENSITY OR AMOUNT",
+                 "BENEVOLENT": "KIND AND GENEROUS",
+                 "CANDID": "HONEST AND STRAIGHTFORWARD",
+                 "DEBILITATE": "TO WEAKEN OR MAKE FEEBLE",
+                 "ENCCENTRIC": "UNCONVENTIONAL OR UNSUAL",
+                 "FACILITATE": "TO MSKE SOMETHING EASIER",
+                 "GARNER": "TO GATHER OR COLLECT",
+                 "HAPLESS": "UNFORTUNATE OR UNLUCKY",
+                 "IMMINENT": "ABOUT TO HAPPEN SOON",
+                 "JUXTAPOSE": "TO PLACE SIDE BY SIDE FOR COMPARISON",
+                 "KINETIC": "RELATED TO MOVEMENT",
+                 "LETHARGIC": "SLUGGISH OR LACKING ENERGY",
+                 "METICULOUS": "VERY CAREFUL AND PRECISE",
+                 "NOTORIOUS": "FAMOUS FOR SOMETHING BAD",
+                 "OBSOLETE": "NO LONGER IN USE OR OUTDATED",
+                 "PLAUSIBLE": "SEEMINGLY REASONABLE OR BELIEVABLE",
+                 "QUINTESSENTIAL": "REPRESENTING THR MOST PERFECT EXAMPLE",
+                 "RESILENT": "ABLE TO RECOVER QUICKLY",
+                 "SCRUTINIZE": "TO EXAMINE CLOSELY AND THOROUGHLY",
+                 "TENACIOUS": "HOLDING FIRMLY TO SOMETHING; PRESISTENT",
+                 "UBIQUITOUS": "PRESENT EVERYWHERE AT THE SAME TIME",
+                 "VENERATE": "TP REGARD WITH DEEP RESPECT OR REVERENCE",
+                 "WARY": "CAUTIOUS OR WATCHFUL",
+                 "XENOPHOBIA": "FEAR OR DISLIKE OF FOREIGNERS OR STRANGERS",
+                 "YIELD": "TO PRODUCE OR GIVE WAY UNDER PRESSURE",
+                 "ZEALOUS": "FULL OF ENTHUSIASM AND PASSION",
+                 "AMBIGUOUS": "HAVING MORE THAN ONE POSSIBLE MEANING",
+                 "RELAPSE": "WHEN SOMEONE REMINISCE A PAST MOMENTS AND BECOME EMOTIONAL USUALLY DONE WITH BGM DURING NIGHT",
+                 "AUTOPHOBIA": "FEAR OF BEING ALONE OR LONELY",
+                 "UNREQUINTED LOVE": "LOVE WITHOUT RECOPROCATION"
+        
+                   }
+a = input("Search: ")
+print(DATA[a])      
